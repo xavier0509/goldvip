@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="expires" content="0">
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta name="msapplication-tap-highlight" content="no">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+	<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/jquery.qrcode.min.js"></script>	
+	<script type="text/javascript" src="donothashme.js"></script>
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script>
+        //声明_czc对象:
+        var _czc = _czc || [];
+        //绑定siteid，请用您的siteid替换下方"XXXXXXXX"部分
+//          _czc.push(["_setAccount", "1260740539"]);
+        _czc.push(["_setAccount", "1260815913"]);
+    </script>
+</head>
+<body >
+	<div id="deviceready">
+		<div id="bg" tabindex="-1"></div>
+		<div id="loading" tabindex="-1">
+			<img src="images/loading.gif">
+		</div>
+		<div id="loading2" tabindex="-1">
+			<!-- <img src="images/loading.gif"> -->
+            <img src="images/wait.png" id="waiting">
+		</div>
+		<div id="show">
+			<button id="getimmediateDiv" >
+				<img src="images/getnow.png"  id="getimmediate" tabindex="1"/>
+			</button>
+			<button id="getsuccessDiv">
+				<img src="images/success.png"  id="getsuccess" tabindex="1"/>
+			</button>	
+			<div id="msgDiv">
+				<img src="images/info.png" id="msg">
+				<span id="errorinfo">数据异常，请稍后再试！</span>
+			</div>	
+		</div>
+		<div id="goldvip">
+			<div id="goldbg">
+                <div class="header">
+                    <div class="header-left">
+                        <img src="images/header-vip.png">
+                    </div>
+                    <div class="user">
+                        <p>帐&nbsp;号:&nbsp;<span id="phone"></span></p>
+                    </div>
+                </div>
+                <div class="main-show">
+                    <div class="show-left" id="show-left">
+                       	<div id="er-img"><!--<img src="images/er-img.png">-->                      		
+                       	</div>
+                        <div class="er-txt" id="er-txt"><img src="images/er-bottom.png"></div>   
+                        <div id="er-errorDiv">
+                        	<img src="images/er-error.png" id="er-error">
+                        	<button id="er-button"><div>刷新重试</div></button> 
+                        </div>      
+                    </div>
+                    <div class="show-right">
+                        <div class="vip-img"><img src="images/vip.png"></div>
+                        <div id="vip-text">
+                           <p id="deadline">请在<span class="redWord"><span id="year"></span>年<span id="month"></span>月<span id="day"></span>日前</span>领取黄金VIP权益，领取后需<br>在<span class="redWord">7天内</span>用手机号注册/登录爱奇艺账号，方可完成领<br>取，过期无效。</p>
+                        </div>
+                    </div>          
+                </div>
+                <div class="footer">逾期未领取或注册绑定的，视为自动放弃黄金VIP权益。具体使用办法及相关疑问咨询爱奇艺公司。</div>
+            </div>
+		</div>
+	</div>
+
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260815913'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1260815913' type='text/javascript'%3E%3C/script%3E"));</script>
+</body>
+</html>
