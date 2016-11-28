@@ -1,0 +1,258 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+
+}
+#deviceready{
+	width: 100%;
+	height: 100%;
+}
+#bg {
+	display: block;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.6;
+	opacity:.60;
+	filter: alpha(opacity=60);
+}
+
+#show {
+	/*text-align: center;*/
+	display: block;
+	position: absolute;
+	left: 11.38364%;
+	top: 10.9497%;
+	width: 76.367%;
+	height:76.51%;
+	z-index:1002;
+	/*overflow: hidden;*/
+}
+#show img{ 
+	width:100%; 
+	height:100%;
+	/*position: absolute;*/
+}
+
+#buttBorder{
+		/*text-align: center;*/
+	display: block;
+	position: absolute;
+	left: 11.38364%;
+	top: 10.9497%;
+	width: 76.367%;
+	height:76.51%;
+	z-index:1003;
+	/*overflow: hidden;*/
+}
+#buttonImg{
+	z-index: 1111;
+	position: relative;
+	left: 36.9611%;
+	top: 76.9781%;
+	width: 23.067%;
+	height: 9.731%;
+	/*zoom:0.2;*/
+}
+
+#noload{
+	display: none;
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	z-index:1003;
+	overflow: hidden;
+}
+
+#msgDiv{
+	display: none;
+	width: 100%;
+}
+#msgDiv img{
+	width: 34.53%;
+}
+#msgDiv span{
+	z-index: 1112;
+	font-size: 1.8em;
+	color: #fff;
+	position: absolute;
+	left: 36%;
+	top: 89.5%;
+
+}
+#msg{
+	z-index: 1111;
+	position: absolute;
+	left: 32.5%;
+	top: 88%;
+}
+#loading{
+	display: none;
+	position: fixed;
+	left: 47.7%;
+	top: 33%;
+	z-index: 1004;
+}
+#loading2{
+	display: none;
+	position: absolute;
+	left: 16.4%;
+	top: 28.2%;
+	z-index: 1006;
+}
+
+#deadline{
+	display: none;
+	color: #333333;
+	text-align: left;
+	margin-left: 6%;
+	margin-top: -5px;
+}
+#getsuccessDiv{
+	display: none;
+}
+#nochanceDiv{
+	display: none;
+}
+#makesureDiv{
+	display: none;
+}
+img{
+	outline: none;
+}
+
+#goldvip img,#waiting{
+	zoom:0.7;
+}
+button{
+	outline: none;
+	border: 0;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#goldvip{
+	width: 100%;
+	height: 100%;
+	z-index: 1005;
+	display: none;
+}
+#goldbg{
+	background-color:#e5e5e5;
+	width: 76.3%;       /*1465*/
+	height: 76.3%;      /*824*/
+	/*margin:0 auto;
+	text-align: center;*/
+	margin-top: 5.5%;
+	margin-left: 12%;
+}
+
+#iqiyilogo{
+	position: absolute;
+	z-index: 1008;
+	top: 44%;
+	left: 25.3%;
+
+}
+.header-left{
+	border-bottom: 1px solid #c4c4c4;
+	width: 27.4%;
+	height: 10%;
+	float:left;
+}
+.header-left img{
+	margin-left:12%;
+	margin-top:10%;
+	margin-bottom:10%;
+}
+
+.user{float:right;}
+
+.user p{
+	float: right;
+	font-size:26px;
+	color:#5b5b5b;
+	margin-top: 12%;
+	margin-right: 47px;
+}
+.main-show {
+	/*border: 1px solid;*/
+    width:90%;
+    height: 63%;
+    margin-top: 4.3%;
+    margin-left: 5%;
+    float: left;
+    /*height:654px;*/
+}
+.show-left {
+	/*border: 1px solid;*/
+    width:32%;
+    height:94%;
+    background: #fff;
+    padding-top: 2%;
+    padding-left: 2%;
+    /*float:left;*/
+}
+#er-img {
+	width: 260px;
+	height: 260px;
+	margin-left: 4px;
+}
+.er-txt {
+    margin-top:11px;
+    margin-left: -2px;
+}
+.show-right {
+	zoom:0.95;
+	/*border: 1px solid;*/
+	margin-top: -39%;
+    float:right;
+}
+#vip-text {
+	font-size:20px;
+    text-align: center;
+}
+.footer {
+	float: left;
+	margin-top: 4%;
+	margin-left: 20%;
+    text-align: center;
+    font-size: 13px;
+    color: #333333;
+
+}
+#er-errorDiv{
+	display: none;
+}
+#er-error{
+	position: absolute;
+	margin-left: -1.6%;
+	margin-top: -1.6%;
+}
+#waiting{
+	position: absolute;
+	margin-left: -1.7%;
+	margin-top: -1.6%;
+}
+#er-button{
+	position: absolute;
+	width: 100%;
+	top:62%;
+	left: 19.5%;
+}
+#er-button div{
+	background: #fff;
+	width: 16%;
+	height: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	/*vertical-align:middle;   */
+}
+
+.redWord{
+	color: #ff0000;
+}
